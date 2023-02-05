@@ -1,0 +1,15 @@
+echo "# LIMO_SW" >> README.md		//readme파일 만들기 //안만들어도 됨
+git init					//git bash 키고 파일 설정할 때(그냥 한번 함 됌)
+git add README.md			//현재 파일에서 readme.md라는 파일 add(현재 저장소) //파일 이름 넣기 
+git commit -m "first commit"		//commit 이름 넣기
+git branch -M main			//브랜치(그냥 해야됨...아마도)
+git remote add origin https://github.com/ryu-23/LIMO_SW.git		//git연결되는 주소
+git push -u origin main						//지금까지 저장한 정보 깃에 올리기
+
+//깃 시작입니당 
+
+git remote add origin https://github.com/ryu-23/LIMO_SW.git
+git branch -M main
+git push -u origin main
+
+// 이건 저도 잘...
